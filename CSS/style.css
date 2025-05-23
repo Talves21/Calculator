@@ -10,11 +10,27 @@ main {
 
 .calculator {
     border: 2px solid black;  
+    padding: 10px 20px;
 }
 
-.buttons {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 8px;
-     
+#result {
+    width: 85%;
+}
+
+#clear {
+    width: 42%;
+}
+
+#equals {
+    width: 64%;
+}
+
+#three {
+    width: 42%;
+}
+
+.calcButton {
+    width: 20%;
+    padding: 5px 10px;
+    margin: 5px auto;
 }
