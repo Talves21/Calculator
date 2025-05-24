@@ -9,6 +9,7 @@ main {
 }
 
 .calculator {
+    background-color: lightgrey;
     border: 2px solid black;  
     padding: 10px 20px;
 }
@@ -18,10 +19,14 @@ main {
 }
 
 #clear {
+    background-color: red;
+    color: white;
     width: 42%;
 }
 
 #equals {
+    background-color: blue;
+    color: white;
     width: 64%;
 }
 
